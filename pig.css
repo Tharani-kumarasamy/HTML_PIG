@@ -1,0 +1,24 @@
+body
+{
+    background-image: url("https://media.istockphoto.com/id/1027916646/vector/cartoon-farm.jpg?s=612x612&w=0&k=20&c=iEgnmQvGXE2zTGuMU_t1BmjTEkVFRdkE14eZ7Wwo-uw=");
+   background-color: rgb(121, 201, 201);
+    background-size: cover;
+    position:absolute;
+    background-repeat: no-repeat;
+}
+.pig
+{
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 230px;
+  height: 200px;
+}
+.head
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 30% 30% 50% 50%;
+  box-shadow: 0px 1px 0px 0px var(--accent-pink);
+}
